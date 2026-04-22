@@ -48,3 +48,4 @@ build/
 .m2
 
 /venv/
+/chroma_local_db/
