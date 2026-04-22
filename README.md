@@ -187,3 +187,8 @@ export HF_ENDPOINT=https://hf-mirror.com
 - 调整检索数量 - 修改 `db.similarity_search(query, k=3)` 中的 `k` 值
 - 接入网页解析 - 在 `parse_file()` 中添加 URL 判断分支，调用 `parse_web()`
 - 增量索引 - 实现向现有向量库追加文档而非全量重建
+
+### 运行效果
+![运行效果](./docs/app_run_001.png)
+![运行效果](./docs/app_run_002.png)
+![运行效果](./docs/app_run_003.png)
